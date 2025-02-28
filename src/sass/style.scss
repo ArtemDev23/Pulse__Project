@@ -1,6 +1,13 @@
-@import 'base/variables';
+@use 'base/variables';
+@use 'blocks/promo';
+@use 'blocks/header';
+@use 'blocks/buttons';
 
 * {
     font-family: 'Myseo Sans Cyrl', sans-serif;
 }
 
+.container {
+    margin: 0 auto;
+    max-width: 950px;
+}
