@@ -2,6 +2,9 @@
 @use 'blocks/promo';
 @use 'blocks/header';
 @use 'blocks/buttons';
+@use 'blocks/advantages';
+@use 'blocks/consultation';
+@use 'blocks/forms';
 
 * {
     font-family: 'Myseo Sans Cyrl', sans-serif;
@@ -10,4 +13,10 @@
 .container {
     margin: 0 auto;
     max-width: 950px;
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        max-width: 800px;
+    }
 }

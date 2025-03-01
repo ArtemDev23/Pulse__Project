@@ -45,4 +45,38 @@
         font-weight: 700;
         text-decoration: none;
     }
+
+    @media screen and (max-width: 820px) {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    @media screen and (max-width: 700px) {
+        flex-direction: column;
+        margin-bottom: 65px;
+
+        &__official {
+            display: none;
+        }
+
+        &__logo {
+            margin-bottom: 25px;
+            // width: 350px;
+        }
+
+        &__contacts {
+            align-items: center;
+        }
+
+        &__phone {
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+    }
+
+    @media screen and (max-width: 470px) {
+        &__logo {
+            width: 250px;
+        }
+    }
 }
