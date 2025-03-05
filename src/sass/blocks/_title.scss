@@ -1,0 +1,16 @@
+.title {
+    color: rgb(13, 13, 13);
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+
+    &__left {
+        margin-bottom: 8px;
+        color: rgb(255, 255, 255);
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 54px;
+        text-align: left;
+    }
+}

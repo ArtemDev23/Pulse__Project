@@ -3,16 +3,8 @@
     padding: 70px 0 65px;
     background-color: rgb(246, 246, 246);
 
-    &__header {
-        margin-bottom: 65px;
-        color: rgb(13, 13, 13);
-        font-size: 30px;
-        font-weight: 700;
-        line-height: 30px;
-        text-align: center;
-    }
-
     &__wrapper {
+        margin-top: 65px;
         max-width: 936px;
         display: flex;
         justify-content: space-between;

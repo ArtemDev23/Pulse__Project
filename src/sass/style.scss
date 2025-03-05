@@ -1,10 +1,12 @@
 @use 'base/variables';
 @use 'blocks/promo';
+@use 'blocks/title';
 @use 'blocks/header';
 @use 'blocks/buttons';
 @use 'blocks/advantages';
 @use 'blocks/consultation';
 @use 'blocks/forms';
+@use 'blocks/carousel';
 
 * {
     font-family: 'Myseo Sans Cyrl', sans-serif;
