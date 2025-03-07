@@ -5,6 +5,10 @@
     text-align: center;
     text-transform: uppercase;
 
+    @media screen and (max-width: 430px) {
+        font-size: 27px;
+    }
+
     &__left {
         margin-bottom: 8px;
         color: rgb(255, 255, 255);
@@ -12,5 +16,24 @@
         font-weight: 700;
         line-height: 54px;
         text-align: left;
+
+        @media screen and (max-width: 820px) {
+            text-align: center;
+            font-size: 30px;
+        }
+
+        @media screen and (max-width: 700px) {
+            font-size: 29px;
+            margin-bottom: 25px;
+        }
+
+        // @media screen and (max-width: 430px) {
+        //     font-size: 27px;
+        // }
+    }
+
+    &__catalog {
+        font-weight: 400;
+        margin-bottom: 70px;
     }
 }

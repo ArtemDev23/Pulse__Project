@@ -7,6 +7,10 @@
 @use 'blocks/consultation';
 @use 'blocks/forms';
 @use 'blocks/carousel';
+@use 'blocks/catalog';
+@use 'blocks/review';
+
+
 
 * {
     font-family: 'Myseo Sans Cyrl', sans-serif;
@@ -15,6 +19,7 @@
 .container {
     margin: 0 auto;
     max-width: 950px;
+
 }
 
 @media screen and (max-width: 1024px) {
