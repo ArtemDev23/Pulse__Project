@@ -3,7 +3,7 @@
 .promo {
     min-height: 650px;
     padding: 21px 0 93px;
-    background: url('../../image/main_bg.jpeg') center (center/cover) no-repeat;
+    background: url('../image/main_bg.jpeg') center (center/cover) no-repeat;
 
     &__wrapper {
         display: flex;
@@ -67,7 +67,7 @@
     }
 
     @media screen and (max-width: 1024px) {
-        background: url('../../image/main_tablet_bg.jpeg') center (center/cover) no-repeat;
+        background: url('../image/main_tablet_bg.jpeg') center (center/cover) no-repeat;
     }
 
     @media screen and (max-width: 820px) {

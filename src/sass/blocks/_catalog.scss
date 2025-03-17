@@ -242,4 +242,16 @@
             font-size: 11px;
         }
     }
+
+    @media screen and (max-width: 430px) {
+        &__tab {
+            width: 210px;
+            font-size: 16px;
+        }
+
+        &__tabs {
+            flex-direction: column;
+            row-gap: 10px;
+        }
+    }
 }
