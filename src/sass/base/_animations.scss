@@ -1,0 +1,44 @@
+@keyframes heartbeat {
+    from {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.4);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes walk {
+    0% {
+        transform: translateY(0) rotate(0);
+    }
+
+    25% {
+        transform: translateY(-5px) rotate(-5deg);
+    }
+
+    50% {
+        transform: translateY(0) rotate(0);
+    }
+
+    75% {
+        transform: translateY(-5px) rotate(5deg);
+    }
+
+    100% {
+        transform: translateY(0) rotate(0);
+    }
+}
+
+@keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }

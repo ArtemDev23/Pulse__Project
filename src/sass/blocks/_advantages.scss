@@ -18,11 +18,24 @@
 
     &__items {
         max-width: 277px;
+
     }
 
     &__image {
         display: block;
         margin: 0 auto 30px;
+
+        &-cup {
+            animation: bounce 1s infinite ease-in-out;
+        }
+
+        &-heart {
+            animation: heartbeat 1.5s ease infinite;
+        }
+
+        &-shoe {
+            animation: walk 1s infinite ease-in-out;
+        }
     }
 
     &__title {
