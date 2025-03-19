@@ -173,4 +173,8 @@ $(document).ready(function () {
         $("html, body").animate({ scrollTop: $(_href).offset().top + "px" });
         return false;
     });
+
+    // animation setting
+
+    new WOW().init();
 });
