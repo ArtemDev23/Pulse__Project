@@ -167,7 +167,7 @@ $(document).ready(function () {
 
     // smooth scroll through links
 
-    $("a[href^='#']").on("click", function (event) {
+    $("a[href^='#up']").on("click", function (event) {
         event.preventDefault();
         const _href = $(this).attr("href");
         $("html, body").animate({ scrollTop: $(_href).offset().top + "px" });
